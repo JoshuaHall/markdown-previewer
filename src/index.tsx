@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import createDOMPurify from 'dompurify';
-
 import { MarkdownPreviewer, initialEditorInput } from './MarkdownPreviewer';
+
+import createDOMPurify from 'dompurify';
 
 import 'bulma/css/bulma.min.css';
 
