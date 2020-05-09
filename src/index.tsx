@@ -5,6 +5,8 @@ import createDOMPurify from 'dompurify';
 
 import { MarkdownPreviewer } from './MarkdownPreviewer';
 
+import 'bulma/css/bulma.min.css';
+
 const initialEditorInput: string = `# This is a header (H1)
 
 ## This is a sub header (H2)
