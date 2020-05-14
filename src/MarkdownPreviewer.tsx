@@ -26,21 +26,19 @@ export function MarkdownPreviewer({
   }
 
   return (
-    <div className="container">
-      <div className="columns">
-        <div className="column">
-          <textarea
-            id="editor"
-            className="textarea"
-            onChange={handleChange}
-            value={input}
-            rows={26}
-            cols={100}
-          ></textarea>
-        </div>
-        <div className="column">
-          <div id="preview" className="content" dangerouslySetInnerHTML={{ __html: purified }}></div>
-        </div>
+    <div className="columns">
+      <div className="column">
+        <textarea
+          id="editor"
+          className="textarea"
+          onChange={handleChange}
+          value={input}
+          rows={26}
+          cols={100}
+        ></textarea>
+      </div>
+      <div className="column">
+        <div id="preview" className="content" dangerouslySetInnerHTML={{ __html: purified }}></div>
       </div>
     </div>
   );
