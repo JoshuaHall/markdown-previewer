@@ -44,7 +44,7 @@ export function MarkdownPreviewer({
   );
 }
 
-export const initialEditorInput: string = `# This is a header (H1)
+export const initialEditorInput = `# This is a header (H1)
 
 ## This is a sub header (H2)
 
